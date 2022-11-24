@@ -3,17 +3,17 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <ul>
-      <li>
-        <Link href="/">Home</Link>
-      </li>
-      <li>
-        <Link href="/about">About</Link>
-      </li>
-      <li>
-        <Link href="/projects">Projects</Link>
-      </li>
-    </ul>
+    <nav className="navbar">
+      <a href="/" className="title">Arbnor</a>
+      <ul>
+        <li>
+          <Link href="/about">Blog</Link>
+        </li>
+        <li>
+          <Link href="/projects">Projects</Link>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
