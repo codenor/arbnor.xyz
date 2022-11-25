@@ -4,7 +4,9 @@ import Link from "next/link";
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="/" className="title">Arbnor</a>
+      <a href="/" className="title">
+        Arbnor
+      </a>
       <ul>
         <li>
           <Link href="/about">Blog</Link>
