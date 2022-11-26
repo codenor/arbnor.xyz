@@ -1,5 +1,3 @@
-import { FaSadCry } from 'react-icons/fa';
-
 export default function Custom404() {
   return (
     <div className="error">
