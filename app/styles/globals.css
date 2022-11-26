@@ -1,5 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    background-color: black;
+    background-image: linear-gradient(rgba(35, 19, 40, 0.7) 1px, transparent 1px);
+    background-size: 2px 2px;
+    background-attachment: fixed;
+    content:'';
 }
 
 body {
@@ -8,7 +14,7 @@ body {
 }
 
 .title {
-    font-size: 40px;
+    font-size: 55px;
 }
 
 .navbar {
@@ -18,8 +24,9 @@ body {
     justify-content: space-between;
     align-items: center;
     gap:  15px;
-    padding: 0 25px;
+    padding: 30px 70px;
     text-decoration: none;
+    text-shadow: rgb(190, 16, 209) 0 0 10px;
 }
 
 .navbar a {
@@ -32,8 +39,8 @@ body {
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 20px;
-    font-size: 20px;
+    gap: 25px;
+    font-size: 25px;
 }
 
 .navbar li:hover {
