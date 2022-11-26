@@ -4,10 +4,10 @@ import Link from "next/link";
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="/" className="title">
-        Arbnor
-      </a>
       <ul>
+      <li>
+          <Link href="/">Home</Link>
+        </li>
         <li>
           <Link href="/about">Blog</Link>
         </li>
