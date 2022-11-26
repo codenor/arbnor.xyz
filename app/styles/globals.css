@@ -46,3 +46,19 @@ body {
 .navbar li:hover {
     color: rgb(202, 202, 202);
 }
+
+.WIP {
+    font-size: 35px;
+    color: white;
+    margin: 0 100px;
+    text-align: center;
+    text-shadow: rgb(190, 16, 209) 0 0 10px;
+}
+
+.error {
+    font-size: 35px;
+    color: white;
+    margin: 0 100px;
+    text-align: center;
+    text-shadow: rgb(190, 16, 209) 0 0 10px;
+}
