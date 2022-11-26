@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul>
-      <li>
+        <li>
           <Link href="/">Home</Link>
         </li>
         <li>
