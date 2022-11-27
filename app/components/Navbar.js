@@ -9,7 +9,7 @@ function Navbar() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/about">Blog</Link>
+          <Link href="/blog">Blog</Link>
         </li>
         <li>
           <Link href="/projects">Projects</Link>

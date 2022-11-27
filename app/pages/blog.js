@@ -1,6 +1,6 @@
 import React from "react";
 import Construction from "../components/Construction";
 
-export default function Projects() {
+export default function Blog() {
   return (<Construction/>);
 }
