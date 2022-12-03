@@ -14,6 +14,8 @@ const mastoHandle = () => {
   document.location.href = "https://mas.to/@masnor";
 };
 
+// Home page
+
 export default function Home() {
   return (
     <div>
