@@ -10,7 +10,7 @@ function Footer() {
       <div className="footer-text"></div>
       <p1>
         &copy; {new Date().getFullYear()} Arbnor -{" "}
-        <a onClick={sourceHandle}>Source Code</a> 
+        <a onClick={sourceHandle}>Source Code</a>
       </p1>
     </div>
   );
