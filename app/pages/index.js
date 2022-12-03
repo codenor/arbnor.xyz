@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Cards from "../components/Cards";
 import styles from "../styles/Home.module.css";
 
 const githubHandle = () => {
@@ -31,6 +32,7 @@ export default function Home() {
         <button className="button" onClick={twitterHandle}>Twitter</button>
         <button className="button" onClick={mastoHandle}>Mastodon</button>
       </div>
+      <Cards/>
     </div>
   );
 }
