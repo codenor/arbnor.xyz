@@ -3,16 +3,18 @@ import Cards from "../components/Cards";
 import styles from "../styles/Home.module.css";
 
 const githubHandle = () => {
-  document.location.href = 'https://github.com/codenor';
-}
+  document.location.href = "https://github.com/codenor";
+};
 
 const twitterHandle = () => {
-  document.location.href = 'https://twitter.com/ArbnorOfficial';
-}
+  document.location.href = "https://twitter.com/ArbnorOfficial";
+};
 
 const mastoHandle = () => {
-  document.location.href = 'https://mas.to/@masnor';
-}
+  document.location.href = "https://mas.to/@masnor";
+};
+
+// Home page
 
 export default function Home() {
   return (
@@ -28,11 +30,17 @@ export default function Home() {
         <p2>Although here are some neat links in the meantime:</p2>
       </div>
       <div className="btn">
-        <button className="button" onClick={githubHandle}>Github</button>
-        <button className="button" onClick={twitterHandle}>Twitter</button>
-        <button className="button" onClick={mastoHandle}>Mastodon</button>
+        <button className="button" onClick={githubHandle}>
+          Github
+        </button>
+        <button className="button" onClick={twitterHandle}>
+          Twitter
+        </button>
+        <button className="button" onClick={mastoHandle}>
+          Mastodon
+        </button>
       </div>
-      <Cards/>
+      <Cards />
     </div>
   );
 }
