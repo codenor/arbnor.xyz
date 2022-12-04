@@ -15,7 +15,7 @@ function Footer() {
       <p1>
         &copy; {new Date().getFullYear()} Arbnor -{" "}
         <a onClick={sourceHandle}>Source Code</a>
-        <a> - </a>
+        <> - </>
         <a onClick={donateHandle}>Donate</a>
       </p1>
     </div>
