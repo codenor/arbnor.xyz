@@ -4,8 +4,8 @@ const sourceHandle = () => {
   document.location.href = "https://github.com/codenor/arbnor.xyz";
 };
 
-const kofiHandle = () => {
-  document.location.href = "https://ko-fi.com/arbnor";
+const donateHandle = () => {
+  document.location.href = "https://arbnor.xyz/donate";
 };
 
 function Footer() {
@@ -16,7 +16,7 @@ function Footer() {
         &copy; {new Date().getFullYear()} Arbnor -{" "}
         <a onClick={sourceHandle}>Source Code</a>
         <a> - </a>
-        <a onClick={kofiHandle}>Donate</a>
+        <a onClick={donateHandle}>Donate</a>
       </p1>
     </div>
   );
